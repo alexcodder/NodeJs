@@ -38,3 +38,18 @@ PUT http://localhost:4040/task/update/66b4322877a10a457227ca3d: {
   },
   "Response Body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot PUT /task/update/66b4322877a10a457227ca3d</pre>\n</body>\n</html>\n"
 }
+
+database 
+
+_id
+66b4322877a10a457227ca3d
+name
+"5t4t"
+isActive
+true
+createdAt
+2024-08-08T02:49:12.258+00:00
+updatedAt
+2024-08-15T06:59:36.728+00:00
+__v
+0
