@@ -23,3 +23,14 @@ export const updateTask = async (req, res) => {
     console.log(error);
   }
 }
+
+export const deleteTask = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const task = await Task.findByIdAndDelete(id);
+    res.status(200).json(task);
+  }
+  catch (error) {
+    console.log(error);
+  }
+}
